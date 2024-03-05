@@ -1,19 +1,19 @@
 export default defineAppConfig({
   alpine: {
-    title: 'Shashank Portfolio',
-    description: 'Portfolio website for my Personal Projects.',
+    title: 'Swaymaw.app',
+    description: 'Personal blog page',
     image: {
-      src: '/social-card-preview.png',
-      alt: 'An image showcasing my project.',
+      src: '/website_home.png',
+      alt: 'Home page of swaymaw portfolio website.',
       width: 400,
       height: 300
     },
     header: {
       position: 'right', // possible value are : | 'left' | 'center' | 'right'
       logo: {
-        path: '/logo.svg', // path of the logo
-        pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'shashank portfolio website logo' // alt of the logo
+        path: "/logo.svg",
+        pathDark: "/logoDark.svg",
+        alt: "swaymaw portfolio/blog logo", 
       }
     },
     footer: {
@@ -26,15 +26,16 @@ export default defineAppConfig({
       message: 'Follow me on' // string that will be displayed in the footer (leave empty or delete to disable)
     },
     socials: {
-      instagram: 'designershanky',
+      youtube: 'channel/UCyce1SOhdeivXw8hOZtPmhA',
+      instagram: 'swayam_singhal6936',
       linkedin: {
         icon: 'uil:linkedin',
         label: 'LinkedIn',
-        href: 'https://www.linkedin.com/in/shashank-s-904b481a5/'
+        href: 'https://www.linkedin.com/in/swayam-singhal/'
       }
     },
-    // form: {
-    //   successMessage: 'Message sent. Thank you!'
-    // }
+    form: {
+      successMessage: 'Message sent. Thank you!', 
+    }
   }
 })
